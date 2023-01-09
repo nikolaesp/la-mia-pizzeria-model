@@ -28,7 +28,7 @@ namespace LaMiaPizzeria.Controllers
                 }
             }
 
-            return NotFound("Il post con l'id cercato non esiste!");
+            return NotFound("Non ci sono pizze presenti");
         }
     }
 }
