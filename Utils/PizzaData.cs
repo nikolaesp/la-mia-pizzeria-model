@@ -5,7 +5,7 @@ namespace LaMiaPizzeria.Utils
 {
     public class PizzaData
     {
-        private static List<Pizza> pizzas= new List<Pizza>();
+        private static List<Pizza> pizzas= new();
         public static List<Pizza> GetPizzas()
         {
             for (int i = 0; i < 10; i++)
